@@ -1,0 +1,36 @@
+{
+  "name": "@voendev/core",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Monorepository containing dev tools",
+  "author": "Kostrov Gleb",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/voenmeh/frontend-lints",
+  "repository": {
+    "url": "https://github.com/voenmeh/frontend-lints"
+  },
+  "bugs": {
+    "url": "https://github.com/voenmeh/frontend-lints/issues"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "^22.0.0"
+  },
+  "scripts": {
+    "lint-eslint": "eslint . --cache --cache-location .cache/.eslintcache",
+    "lint-prettier": "prettier . --check --cache --cache-location .cache/.prettiercache",
+    "cs-fix": "yarn lint-eslint --fix && yarn lint-prettier --write",
+    "lint-inspector": "yarn workspace @voendev/eslint lint-inspector"
+  },
+  "devDependencies": {
+    "@voendev/eslint": "*",
+    "@voendev/prettier": "*",
+    "eslint": "9.25.1",
+    "prettier": "3.5.3",
+    "prettier-plugin-packagejson": "2.5.10",
+    "typescript": "5.8.3"
+  }
+}

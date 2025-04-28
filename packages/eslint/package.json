@@ -1,0 +1,60 @@
+{
+  "name": "@voendev/eslint",
+  "type": "module",
+  "version": "0.1.3",
+  "description": "ESLint  config for voendev",
+  "author": "Kostrov Gleb",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/voenmeh/frontend-lints",
+  "repository": {
+    "url": "https://github.com/voenmeh/frontend-lints"
+  },
+  "bugs": {
+    "url": "https://github.com/voenmeh/frontend-lints/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "config",
+    "code-styles",
+    "linter",
+    "javascript"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "engines": {
+    "node": "^22.0.0"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "lint-inspector": "npx @eslint/config-inspector"
+  },
+  "peerDependencies": {
+    "@next/eslint-plugin-next": "^15.2.4",
+    "eslint": "^9.23.0",
+    "eslint-plugin-no-barrel-files": "^1.2.1",
+    "eslint-plugin-react": "^7.37.5"
+  },
+  "peerDependenciesMeta": {
+    "@next/eslint-plugin-next": {
+      "optional": true
+    },
+    "eslint-plugin-no-barrel-files": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "4.12.0"
+  },
+  "devDependencies": {
+    "eslint": "9.25.1",
+    "eslint-plugin-no-barrel-files": "1.2.1"
+  }
+}

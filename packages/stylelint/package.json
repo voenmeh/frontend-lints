@@ -1,0 +1,43 @@
+{
+  "name": "@voendev/stylelint",
+  "type": "module",
+  "version": "0.1.4",
+  "packageManager": "yarn@4.9.1",
+  "description": "Stylelint config for voendev",
+  "author": "Kostrov Gleb",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/voenmeh/frontend-lints",
+  "repository": {
+    "url": "https://github.com/voenmeh/frontend-lints"
+  },
+  "bugs": {
+    "url": "https://github.com/voenmeh/frontend-lints/issues"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "config",
+    "code-styles",
+    "linter",
+    "css",
+    "scss"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": "^22.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^16.8.1",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-order": "7.0.0"
+  },
+  "devDependencies": {
+    "postcss": "8.5.3",
+    "sass": "1.87.0",
+    "stylelint": "16.18.0",
+    "stylelint-config-standard": "38.0.0",
+    "stylelint-config-standard-scss": "14.0.0",
+    "stylelint-order": "7.0.0"
+  }
+}

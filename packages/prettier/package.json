@@ -1,0 +1,28 @@
+{
+  "name": "@voendev/prettier",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Prettier config for voendev",
+  "author": "Kostrov Gleb",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/voenmeh/frontend-lints",
+  "repository": {
+    "url": "https://github.com/voenmeh/frontend-lints"
+  },
+  "bugs": {
+    "url": "https://github.com/voenmeh/frontend-lints/issues"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "main": "index.js",
+  "files": [
+    "prettier.config.js"
+  ],
+  "scripts": {
+    "format": "prettier --write \"*.js\""
+  },
+  "peerDependencies": {
+    "prettier": "^3.5.1"
+  }
+}
