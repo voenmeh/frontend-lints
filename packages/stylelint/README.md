@@ -5,7 +5,7 @@
 ## Установка
 
 ```shell
-yarn add -D @voendev/stylelint
+npm i -D @voendev/stylelint
 ```
 
 ## Настройка

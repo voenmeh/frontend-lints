@@ -22,8 +22,8 @@
   "scripts": {
     "lint-eslint": "eslint . --cache --cache-location .cache/.eslintcache",
     "lint-prettier": "prettier . --check --cache --cache-location .cache/.prettiercache",
-    "cs-fix": "yarn lint-eslint --fix && yarn lint-prettier --write",
-    "lint-inspector": "yarn workspace @voendev/eslint lint-inspector"
+    "cs-fix": "npm run lint-eslint --fix && npm run lint-prettier --write",
+    "lint-inspector": "npm --workspace packages/eslint lint-inspector"
   },
   "devDependencies": {
     "@voendev/eslint": "*",

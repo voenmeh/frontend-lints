@@ -5,7 +5,7 @@
 ## Установка
 
 ```shell
-yarn add -D @voendev/eslint
+npm i -D @voendev/eslint
 ```
 
 ## Настройка
@@ -45,5 +45,5 @@ export default eslint({
 Посмотреть список доступных правил можно с помощью команды
 
 ```bash
-yarn lint-inspector
+npm run lint-inspector
 ```
